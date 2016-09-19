@@ -52,7 +52,7 @@ outputs:
   - id: out_gvcf
     type: File
     outputBinding:
-      glob: $(inputs.output_dir + '/' + $inputs.prefix + '.' + $inputs.region + '.g.vcf')
+      glob: $(inputs.output_dir + '/' + inputs.prefix + '.' + inputs.region + '.g.vcf')
 
 requirements:
   - class: InlineJavascriptRequirement
