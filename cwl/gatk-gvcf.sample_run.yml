@@ -1,0 +1,17 @@
+BAM: 
+  class: File
+  path: /home/duplexa/aws_gatk/AWS_GATK/output/TEST.final.bam
+FASTA:
+  class: File
+  path: /home/duplexa/aws_gatk/AWS_GATK/resources/human_g1k_v37_decoy.fasta
+FASTA_FAI:
+  class: File
+  path: /home/duplexa/aws_gatk/AWS_GATK/resources/human_g1k_v37_decoy.fasta.fai
+FASTA_DICT:
+  class: File
+  path: /home/duplexa/aws_gatk/AWS_GATK/resources/human_g1k_v37_decoy.dict
+dbSNP:
+  class: File
+  path: /home/duplexa/aws_gatk/AWS_GATK/resources/dbsnp_138.b37.vcf
+region: 1:1-50000
+prefix: TEST_B
