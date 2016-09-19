@@ -2,7 +2,7 @@ cwlVersion: cwl:draft-3
 class: CommandLineTool
 hints:
   - class: DockerRequirement
-    dockerPull: hms-dbmi/gatk-docker:v2
+    dockerPull: duplexa/gatk_env:v2
 baseCommand: gvcf.sh
 inputs:
   - id: BAM
