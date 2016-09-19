@@ -1,6 +1,9 @@
 BAM: 
   class: File
   path: /home/duplexa/aws_gatk/AWS_GATK/output/TEST.final.bam
+BAM_BAI: 
+  class: File
+  path: /home/duplexa/aws_gatk/AWS_GATK/output/TEST.final.bam.bai
 FASTA:
   class: File
   path: /home/duplexa/aws_gatk/AWS_GATK/resources/human_g1k_v37_decoy.fasta

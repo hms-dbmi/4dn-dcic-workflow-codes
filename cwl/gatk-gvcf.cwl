@@ -9,6 +9,8 @@ inputs:
     type: File
     inputBinding:
       position: 1
+  - id: BAM_BAI
+    type: File
   - id: FASTA
     type: File
     inputBinding:
@@ -44,15 +46,12 @@ inputs:
     default: '3.5n'
     inputBinding:
       position: 8
-  - id: output_dir
-    type: string
-    default: '.'  
 
 outputs:
   - id: out_gvcf
     type: File
     outputBinding:
-      glob: $(inputs.output_dir + '/' + inputs.prefix + '.' + inputs.region + '.g.vcf')
+      glob: $(inputs.prefix + '.' + inputs.region + '.g.vcf')
 
 requirements:
   - class: InlineJavascriptRequirement
