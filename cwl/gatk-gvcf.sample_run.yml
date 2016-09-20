@@ -16,5 +16,8 @@ FASTA_DICT:
 dbSNP:
   class: File
   path: /home/duplexa/aws_gatk/AWS_GATK/resources/dbsnp_138.b37.vcf
+dbSNP_IDX:
+  class: File
+  path: /home/duplexa/aws_gatk/AWS_GATK/resources/dbsnp_138.b37.vcf.idx
 region: 1:1-50000
 prefix: TEST_B

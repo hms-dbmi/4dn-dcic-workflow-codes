@@ -23,6 +23,8 @@ inputs:
     type: File
     inputBinding:
       position: 3
+  - id: dbSNP_IDX
+    type: File
   - id: region
     type: string
     inputBinding:
