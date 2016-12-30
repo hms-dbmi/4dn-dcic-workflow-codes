@@ -1,2 +1,2 @@
 # 4dn-dcic-workflow-codes
-A collection of software programs, scripts, CWL and docker source files used as part of the workflows created by the 4DN DCIC.
+A collection of CWL codes used as part of the workflows created by the 4DN DCIC and/or Park Lab at HMS DBMI.
